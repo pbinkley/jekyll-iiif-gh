@@ -4,7 +4,7 @@
   "@type": "sc:Manifest",
   "label": "Sebastian Brant, Aff-ghebeelde narren speel-schuyt, verciert met meer als hondert schoone figueren nae den aerdt van veelderley sotten die op aerden syn: bewesen met stichtelijcke exempelen, so uyt de H. Schrift als oock uyt de kerckelijcke oudt-vaders ende andere schrijvers meer, tot dienste van een yegelijcken",
   "attribution": "jekyll-iiif demo",
-  "logo": "http://127.0.0.1:4000/jekyll-iiif-demo/logo.jpg",
+  "logo": "https://pbinkley.github.io/jekyll-iiif-gh/logo.jpg",
   "description": "Ghedruckt tot Leyden : By Henrick Lodewicxsz. van Haestens",
   "thumbnail": "https://pbinkley.github.io/jekyll-iiif-gh/tiles/images/narrenschiff-0001/full/180,/0/default.jpg",
   "viewingDirection": "left-to-right",
