@@ -1,0 +1,29 @@
+{
+  "@type": "sc:Canvas",
+  "@id": "https://pbinkley.github.io/jekyll-iiif-gh/tiles/narrenschiff/canvas/4.json",
+  "label": "p. 4",
+  "width": 2885,
+  "height": 4084,
+  "thumbnail": "http://127.0.0.1:4000/jekyll-iiif-demo/tiles/images/narrenschiff-0004/full/177,/0/default.jpg",
+  "images": [
+    {
+      "@type": "oa:Annotation",
+      "@id": "https://pbinkley.github.io/jekyll-iiif-gh/tiles/narrenschiff/annotation/4.json",
+      "motivation": "sc:painting",
+      "resource": {
+        "@id": "http://127.0.0.1:4000/jekyll-iiif-demo/tiles/images/narrenschiff-0004/full/full/0/default.jpg",
+        "@type": "dcterms:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "http://127.0.0.1:4000/jekyll-iiif-demo/tiles/images/narrenschiff-0004",
+          "profile": "http://iiif.io/api/image/2/level0.json"
+        },
+        "width": 2885,
+        "height": 4084
+      },
+      "on": "https://pbinkley.github.io/jekyll-iiif-gh/tiles/narrenschiff/canvas/4.json"
+    }
+  ],
+  "@context": "http://iiif.io/api/presentation/2/context.json"
+}

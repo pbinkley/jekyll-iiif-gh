@@ -1,0 +1,18 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://pbinkley.github.io/jekyll-iiif-gh/tiles/collection/top.json",
+  "@type": "sc:Collection",
+  "label": "top",
+  "manifests": [
+    {
+      "@id": "https://pbinkley.github.io/jekyll-iiif-gh/tiles/Jheronimus_Bosch_011/manifest.json",
+      "@type": "sc:Manifest",
+      "label": ""
+    },
+    {
+      "@id": "https://pbinkley.github.io/jekyll-iiif-gh/tiles/narrenschiff/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Sebastian Brant, Aff-ghebeelde narren speel-schuyt, verciert met meer als hondert schoone figueren nae den aerdt van veelderley sotten die op aerden syn: bewesen met stichtelijcke exempelen, so uyt de H. Schrift als oock uyt de kerckelijcke oudt-vaders ende andere schrijvers meer, tot dienste van een yegelijcken"
+    }
+  ]
+}
