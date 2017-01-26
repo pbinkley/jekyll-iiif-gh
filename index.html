@@ -1,5 +1,67 @@
-<html>
-<body>
-<h1>The site</h1>
-</body>
-</html>
+<p>This is a demo of <a href="https://github.com/pbinkley/jekyll-iiif">jekyll-iiif</a></p>
+
+<h2 id="manifest-view">Manifest view</h2>
+
+<iframe title="Mirador" src="iiif_mirador.html" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" style="width: 100%; height: 500px;" srcdoc="&lt;link rel='stylesheet' type='text/css' href='iiif_viewer/mirador/css/mirador-combined.css'&gt;
+&lt;style&gt;
+#viewer {
+	width: 100%; 
+	height: 500px
+}
+&lt;/style&gt;
+&lt;div id='viewer'&gt;&lt;/div&gt;
+
+&lt;script src='/jekyll-iiif-gh/iiif_viewer/mirador/mirador.js'&gt;&lt;/script&gt;
+&lt;script type='text/javascript'&gt;
+
+ $(function() {
+   Mirador({
+     'id': 'viewer',
+     'layout': '1x1',
+     'data': [ {'manifestUri': 'https://pbinkley.github.io/jekyll-iiif-gh/tiles/Jheronimus_Bosch_011/manifest.json', 'location': 'This jekyll-iiif site.'},{'manifestUri': 'https://pbinkley.github.io/jekyll-iiif-gh/tiles/narrenschiff/manifest.json', 'location': 'This jekyll-iiif site.'} ],
+     'windowObjects': [{
+     	'loadedManifest': 'https://pbinkley.github.io/jekyll-iiif-gh/tiles/narrenschiff/manifest.json', 
+     	'viewType': 'BookView'
+
+     }],
+     'annotationEndpoint': { 'name':'Local Storage', 'module': 'LocalStorageEndpoint' }
+   });
+ });
+&lt;/script&gt;"></iframe>
+
+<p>Source of page images: <a href="https://archive.org/details/affghebeeldenarr00bran">Aff-ghebeelde narren speel-schuyt</a>, 1610 (internet Archive).</p>
+
+<h2 id="image-view">Image view</h2>
+
+<script src="/jekyll-iiif-gh/iiif_viewer/openseadragon/openseadragon.min.js"></script>
+
+<script>
+//<![CDATA[
+var iiif_viewerfuncs = [];
+window.onload = function() {
+  var arrayLength = iiif_viewerfuncs.length;
+  for (var i = 0; i < arrayLength; i++) {
+    iiif_viewerfuncs[i]();
+  }
+}
+//]]
+</script>
+
+<div id="openseadragon1" class="iiif_image" style="width: 100%; height: 500px; border: 1px solid grey"></div>
+<script>
+//<![CDATA[
+iiif_viewerfuncs.push(
+  function initOpenSeadragon1() {
+    OpenSeadragon({
+      id: "openseadragon1",
+      minZoomImageRatio: 1,
+      prefixUrl: "/jekyll-iiif-gh/iiif_viewer/openseadragon/images/",
+      tileSources: "/jekyll-iiif-gh/tiles/images/Jheronimus_Bosch_011-1/info.json",
+      crossOriginPolicy: false
+    });
+  }
+)
+//]]>
+</script>
+
+<p>Image source: <a href="https://en.wikipedia.org/wiki/Ship_of_Fools_(painting)#/media/File:Jheronimus_Bosch_011.jpg">Hieronymus Bosch, Ship of Fools</a> (Wikimedia)</p>
