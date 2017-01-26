@@ -6,7 +6,7 @@
   "attribution": "jekyll-iiif demo",
   "logo": "http://127.0.0.1:4000/jekyll-iiif-demo/logo.jpg",
   "description": "Ghedruckt tot Leyden : By Henrick Lodewicxsz. van Haestens",
-  "thumbnail": "http://127.0.0.1:4000/jekyll-iiif-demo/tiles/images/narrenschiff-0001/full/180,/0/default.jpg",
+  "thumbnail": "https://pbinkley.github.io/jekyll-iiif-gh/tiles/images/narrenschiff-0001/full/180,/0/default.jpg",
   "viewingDirection": "left-to-right",
   "viewingHint": "individuals",
   "sequences": [
@@ -20,19 +20,19 @@
           "label": "p. 1",
           "width": 3185,
           "height": 4412,
-          "thumbnail": "http://127.0.0.1:4000/jekyll-iiif-demo/tiles/images/narrenschiff-0001/full/180,/0/default.jpg",
+          "thumbnail": "https://pbinkley.github.io/jekyll-iiif-gh/tiles/images/narrenschiff-0001/full/180,/0/default.jpg",
           "images": [
             {
               "@type": "oa:Annotation",
               "@id": "https://pbinkley.github.io/jekyll-iiif-gh/tiles/narrenschiff/annotation/1.json",
               "motivation": "sc:painting",
               "resource": {
-                "@id": "http://127.0.0.1:4000/jekyll-iiif-demo/tiles/images/narrenschiff-0001/full/full/0/default.jpg",
+                "@id": "https://pbinkley.github.io/jekyll-iiif-gh/tiles/images/narrenschiff-0001/full/full/0/default.jpg",
                 "@type": "dcterms:Image",
                 "format": "image/jpeg",
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "http://127.0.0.1:4000/jekyll-iiif-demo/tiles/images/narrenschiff-0001",
+                  "@id": "https://pbinkley.github.io/jekyll-iiif-gh/tiles/images/narrenschiff-0001",
                   "profile": "http://iiif.io/api/image/2/level0.json"
                 },
                 "width": 3185,
@@ -48,19 +48,19 @@
           "label": "p. 2",
           "width": 2885,
           "height": 4084,
-          "thumbnail": "http://127.0.0.1:4000/jekyll-iiif-demo/tiles/images/narrenschiff-0002/full/177,/0/default.jpg",
+          "thumbnail": "https://pbinkley.github.io/jekyll-iiif-gh/tiles/images/narrenschiff-0002/full/177,/0/default.jpg",
           "images": [
             {
               "@type": "oa:Annotation",
               "@id": "https://pbinkley.github.io/jekyll-iiif-gh/tiles/narrenschiff/annotation/2.json",
               "motivation": "sc:painting",
               "resource": {
-                "@id": "http://127.0.0.1:4000/jekyll-iiif-demo/tiles/images/narrenschiff-0002/full/full/0/default.jpg",
+                "@id": "https://pbinkley.github.io/jekyll-iiif-gh/tiles/images/narrenschiff-0002/full/full/0/default.jpg",
                 "@type": "dcterms:Image",
                 "format": "image/jpeg",
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "http://127.0.0.1:4000/jekyll-iiif-demo/tiles/images/narrenschiff-0002",
+                  "@id": "https://pbinkley.github.io/jekyll-iiif-gh/tiles/images/narrenschiff-0002",
                   "profile": "http://iiif.io/api/image/2/level0.json"
                 },
                 "width": 2885,
@@ -76,19 +76,19 @@
           "label": "p. 3",
           "width": 2885,
           "height": 4084,
-          "thumbnail": "http://127.0.0.1:4000/jekyll-iiif-demo/tiles/images/narrenschiff-0003/full/177,/0/default.jpg",
+          "thumbnail": "https://pbinkley.github.io/jekyll-iiif-gh/tiles/images/narrenschiff-0003/full/177,/0/default.jpg",
           "images": [
             {
               "@type": "oa:Annotation",
               "@id": "https://pbinkley.github.io/jekyll-iiif-gh/tiles/narrenschiff/annotation/3.json",
               "motivation": "sc:painting",
               "resource": {
-                "@id": "http://127.0.0.1:4000/jekyll-iiif-demo/tiles/images/narrenschiff-0003/full/full/0/default.jpg",
+                "@id": "https://pbinkley.github.io/jekyll-iiif-gh/tiles/images/narrenschiff-0003/full/full/0/default.jpg",
                 "@type": "dcterms:Image",
                 "format": "image/jpeg",
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "http://127.0.0.1:4000/jekyll-iiif-demo/tiles/images/narrenschiff-0003",
+                  "@id": "https://pbinkley.github.io/jekyll-iiif-gh/tiles/images/narrenschiff-0003",
                   "profile": "http://iiif.io/api/image/2/level0.json"
                 },
                 "width": 2885,
@@ -104,19 +104,19 @@
           "label": "p. 4",
           "width": 2885,
           "height": 4084,
-          "thumbnail": "http://127.0.0.1:4000/jekyll-iiif-demo/tiles/images/narrenschiff-0004/full/177,/0/default.jpg",
+          "thumbnail": "https://pbinkley.github.io/jekyll-iiif-gh/tiles/images/narrenschiff-0004/full/177,/0/default.jpg",
           "images": [
             {
               "@type": "oa:Annotation",
               "@id": "https://pbinkley.github.io/jekyll-iiif-gh/tiles/narrenschiff/annotation/4.json",
               "motivation": "sc:painting",
               "resource": {
-                "@id": "http://127.0.0.1:4000/jekyll-iiif-demo/tiles/images/narrenschiff-0004/full/full/0/default.jpg",
+                "@id": "https://pbinkley.github.io/jekyll-iiif-gh/tiles/images/narrenschiff-0004/full/full/0/default.jpg",
                 "@type": "dcterms:Image",
                 "format": "image/jpeg",
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "http://127.0.0.1:4000/jekyll-iiif-demo/tiles/images/narrenschiff-0004",
+                  "@id": "https://pbinkley.github.io/jekyll-iiif-gh/tiles/images/narrenschiff-0004",
                   "profile": "http://iiif.io/api/image/2/level0.json"
                 },
                 "width": 2885,
@@ -132,19 +132,19 @@
           "label": "p. 5",
           "width": 2885,
           "height": 4084,
-          "thumbnail": "http://127.0.0.1:4000/jekyll-iiif-demo/tiles/images/narrenschiff-0005/full/177,/0/default.jpg",
+          "thumbnail": "https://pbinkley.github.io/jekyll-iiif-gh/tiles/images/narrenschiff-0005/full/177,/0/default.jpg",
           "images": [
             {
               "@type": "oa:Annotation",
               "@id": "https://pbinkley.github.io/jekyll-iiif-gh/tiles/narrenschiff/annotation/5.json",
               "motivation": "sc:painting",
               "resource": {
-                "@id": "http://127.0.0.1:4000/jekyll-iiif-demo/tiles/images/narrenschiff-0005/full/full/0/default.jpg",
+                "@id": "https://pbinkley.github.io/jekyll-iiif-gh/tiles/images/narrenschiff-0005/full/full/0/default.jpg",
                 "@type": "dcterms:Image",
                 "format": "image/jpeg",
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "http://127.0.0.1:4000/jekyll-iiif-demo/tiles/images/narrenschiff-0005",
+                  "@id": "https://pbinkley.github.io/jekyll-iiif-gh/tiles/images/narrenschiff-0005",
                   "profile": "http://iiif.io/api/image/2/level0.json"
                 },
                 "width": 2885,
@@ -160,19 +160,19 @@
           "label": "p. 6",
           "width": 2885,
           "height": 4084,
-          "thumbnail": "http://127.0.0.1:4000/jekyll-iiif-demo/tiles/images/narrenschiff-0006/full/177,/0/default.jpg",
+          "thumbnail": "https://pbinkley.github.io/jekyll-iiif-gh/tiles/images/narrenschiff-0006/full/177,/0/default.jpg",
           "images": [
             {
               "@type": "oa:Annotation",
               "@id": "https://pbinkley.github.io/jekyll-iiif-gh/tiles/narrenschiff/annotation/6.json",
               "motivation": "sc:painting",
               "resource": {
-                "@id": "http://127.0.0.1:4000/jekyll-iiif-demo/tiles/images/narrenschiff-0006/full/full/0/default.jpg",
+                "@id": "https://pbinkley.github.io/jekyll-iiif-gh/tiles/images/narrenschiff-0006/full/full/0/default.jpg",
                 "@type": "dcterms:Image",
                 "format": "image/jpeg",
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "http://127.0.0.1:4000/jekyll-iiif-demo/tiles/images/narrenschiff-0006",
+                  "@id": "https://pbinkley.github.io/jekyll-iiif-gh/tiles/images/narrenschiff-0006",
                   "profile": "http://iiif.io/api/image/2/level0.json"
                 },
                 "width": 2885,
@@ -188,19 +188,19 @@
           "label": "p. 7",
           "width": 2885,
           "height": 4084,
-          "thumbnail": "http://127.0.0.1:4000/jekyll-iiif-demo/tiles/images/narrenschiff-0007/full/177,/0/default.jpg",
+          "thumbnail": "https://pbinkley.github.io/jekyll-iiif-gh/tiles/images/narrenschiff-0007/full/177,/0/default.jpg",
           "images": [
             {
               "@type": "oa:Annotation",
               "@id": "https://pbinkley.github.io/jekyll-iiif-gh/tiles/narrenschiff/annotation/7.json",
               "motivation": "sc:painting",
               "resource": {
-                "@id": "http://127.0.0.1:4000/jekyll-iiif-demo/tiles/images/narrenschiff-0007/full/full/0/default.jpg",
+                "@id": "https://pbinkley.github.io/jekyll-iiif-gh/tiles/images/narrenschiff-0007/full/full/0/default.jpg",
                 "@type": "dcterms:Image",
                 "format": "image/jpeg",
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "http://127.0.0.1:4000/jekyll-iiif-demo/tiles/images/narrenschiff-0007",
+                  "@id": "https://pbinkley.github.io/jekyll-iiif-gh/tiles/images/narrenschiff-0007",
                   "profile": "http://iiif.io/api/image/2/level0.json"
                 },
                 "width": 2885,
@@ -216,19 +216,19 @@
           "label": "p. 8",
           "width": 2885,
           "height": 4151,
-          "thumbnail": "http://127.0.0.1:4000/jekyll-iiif-demo/tiles/images/narrenschiff-0008/full/174,/0/default.jpg",
+          "thumbnail": "https://pbinkley.github.io/jekyll-iiif-gh/tiles/images/narrenschiff-0008/full/174,/0/default.jpg",
           "images": [
             {
               "@type": "oa:Annotation",
               "@id": "https://pbinkley.github.io/jekyll-iiif-gh/tiles/narrenschiff/annotation/8.json",
               "motivation": "sc:painting",
               "resource": {
-                "@id": "http://127.0.0.1:4000/jekyll-iiif-demo/tiles/images/narrenschiff-0008/full/full/0/default.jpg",
+                "@id": "https://pbinkley.github.io/jekyll-iiif-gh/tiles/images/narrenschiff-0008/full/full/0/default.jpg",
                 "@type": "dcterms:Image",
                 "format": "image/jpeg",
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "http://127.0.0.1:4000/jekyll-iiif-demo/tiles/images/narrenschiff-0008",
+                  "@id": "https://pbinkley.github.io/jekyll-iiif-gh/tiles/images/narrenschiff-0008",
                   "profile": "http://iiif.io/api/image/2/level0.json"
                 },
                 "width": 2885,
@@ -244,19 +244,19 @@
           "label": "p. 9",
           "width": 2885,
           "height": 4084,
-          "thumbnail": "http://127.0.0.1:4000/jekyll-iiif-demo/tiles/images/narrenschiff-0009/full/177,/0/default.jpg",
+          "thumbnail": "https://pbinkley.github.io/jekyll-iiif-gh/tiles/images/narrenschiff-0009/full/177,/0/default.jpg",
           "images": [
             {
               "@type": "oa:Annotation",
               "@id": "https://pbinkley.github.io/jekyll-iiif-gh/tiles/narrenschiff/annotation/9.json",
               "motivation": "sc:painting",
               "resource": {
-                "@id": "http://127.0.0.1:4000/jekyll-iiif-demo/tiles/images/narrenschiff-0009/full/full/0/default.jpg",
+                "@id": "https://pbinkley.github.io/jekyll-iiif-gh/tiles/images/narrenschiff-0009/full/full/0/default.jpg",
                 "@type": "dcterms:Image",
                 "format": "image/jpeg",
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "http://127.0.0.1:4000/jekyll-iiif-demo/tiles/images/narrenschiff-0009",
+                  "@id": "https://pbinkley.github.io/jekyll-iiif-gh/tiles/images/narrenschiff-0009",
                   "profile": "http://iiif.io/api/image/2/level0.json"
                 },
                 "width": 2885,

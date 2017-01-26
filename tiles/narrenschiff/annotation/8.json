@@ -3,12 +3,12 @@
   "@id": "https://pbinkley.github.io/jekyll-iiif-gh/tiles/narrenschiff/annotation/8.json",
   "motivation": "sc:painting",
   "resource": {
-    "@id": "http://127.0.0.1:4000/jekyll-iiif-demo/tiles/images/narrenschiff-0008/full/full/0/default.jpg",
+    "@id": "https://pbinkley.github.io/jekyll-iiif-gh/tiles/images/narrenschiff-0008/full/full/0/default.jpg",
     "@type": "dcterms:Image",
     "format": "image/jpeg",
     "service": {
       "@context": "http://iiif.io/api/image/2/context.json",
-      "@id": "http://127.0.0.1:4000/jekyll-iiif-demo/tiles/images/narrenschiff-0008",
+      "@id": "https://pbinkley.github.io/jekyll-iiif-gh/tiles/images/narrenschiff-0008",
       "profile": "http://iiif.io/api/image/2/level0.json"
     },
     "width": 2885,

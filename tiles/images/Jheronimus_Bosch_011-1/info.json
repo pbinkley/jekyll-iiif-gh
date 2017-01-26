@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/image/2/context.json",
-  "@id": "http://127.0.0.1:4000/jekyll-iiif-demo/tiles/images/Jheronimus_Bosch_011-1",
+  "@id": "https://pbinkley.github.io/jekyll-iiif-gh/tiles/images/Jheronimus_Bosch_011-1",
   "protocol": "http://iiif.io/api/image",
   "width": 1540,
   "height": 2874,

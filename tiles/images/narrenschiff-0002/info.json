@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/image/2/context.json",
-  "@id": "http://127.0.0.1:4000/jekyll-iiif-demo/tiles/images/narrenschiff-0002",
+  "@id": "https://pbinkley.github.io/jekyll-iiif-gh/tiles/images/narrenschiff-0002",
   "protocol": "http://iiif.io/api/image",
   "width": 2885,
   "height": 4084,
