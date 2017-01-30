@@ -8,7 +8,12 @@
 
   <title>IIIF demos: a presentation and an image</title>
   <meta name="description" content="This is a demo of the Jekyll-IIIF plugin.">
-
+<SCRIPT language="JavaScript">
+<!--
+pic1= new Image(); 
+pic1.src="/jekyll-iiif-gh/assets/Loading_icon.gif"; 
+//-->
+</SCRIPT>
   <link rel="stylesheet" href="/jekyll-iiif-gh/assets/main.css">
   <link rel="stylesheet" href="/jekyll-iiif-gh/assets/custom.css">
   <link rel="canonical" href="https://pbinkley.github.io/jekyll-iiif-gh/">
@@ -95,6 +100,7 @@
      'id': 'viewer',
      'layout': '1x1',
      'data': [ {'manifestUri': 'https://pbinkley.github.io/jekyll-iiif-gh/tiles/Jheronimus_Bosch_011/manifest.json', 'location': 'This jekyll-iiif site.'},{'manifestUri': 'https://pbinkley.github.io/jekyll-iiif-gh/tiles/narrenschiff/manifest.json', 'location': 'This jekyll-iiif site.'} ],
+     'buildPath': '/jekyll-iiif-gh/iiif_viewer/mirador/',
      'windowObjects': [{
      	'loadedManifest': 'https://pbinkley.github.io/jekyll-iiif-gh/tiles/narrenschiff/manifest.json', 
      	'viewType': 'BookView'
@@ -113,7 +119,7 @@
 
 <h2 id="image-view">Image view</h2>
 
-<script src="/jekyll-iiif-gh/iiif_viewer/openseadragon/openseadragon.min.js"></script>
+<script defer="true" src="/jekyll-iiif-gh/iiif_viewer/openseadragon/openseadragon.min.js"></script>
 
 <script>
 //<![CDATA[

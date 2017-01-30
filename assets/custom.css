@@ -14,7 +14,7 @@ iframe {
   top: 0px;
   left: 0px; }
 
-.iiif_presentation, .iiif_image {
+.iiif_presentation, .iiif_image, .iiif_thumbnail {
   background-image: url(Loading_icon.gif);
   background-repeat: no-repeat;
   background-position: center center; }
